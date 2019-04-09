@@ -1,0 +1,26 @@
+@font-face 
+{
+     font-family:"MullerBold";
+     src: url(../fonts/MullerBold.otf);
+     font-style: normal;
+    font-weight: normal;
+}
+
+@font-face 
+{
+     font-family:"HeliosCond";
+     src: url(../fonts/HeliosCond.otf);
+     font-style: normal;
+    font-weight: normal;
+}
+
+@font-face 
+{
+     font-family:"HeliosCondBlackC";
+     src: url(../fonts/HeliosCondBlackC.otf);
+     font-style: normal;
+    font-weight: normal;
+}
+
+ 
+
