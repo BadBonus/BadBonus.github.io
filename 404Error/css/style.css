@@ -1,0 +1,100 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	-webkit-transition: .3s;
+	-moz-transition: .3s;
+	-ms-transition: .3s;
+	-o-transition: .3s;
+	transition: .3s;
+
+}
+
+body
+{
+	width: 100%;
+	background-image: url(../img/fon.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: #fff;
+	padding-top: 65px;
+	font-family: Segoe_WP_Light;
+ }
+
+ .head_title .error
+ {
+ 	font-size: 145px;
+ 	font-family: virgo;
+ }
+
+.head_title .error+p
+{
+	font-size: 31px;
+}
+.head_title .error+p i
+{
+	color: #a98e9b;
+}
+
+.bottob_title
+{
+	width: 540px;
+	height: 230px;
+	background-image: url(../img/fon_form.png);
+	background-repeat: no-repeat;
+	margin: auto;
+	margin-top: 62px;
+	padding-top: 100px;
+	margin-bottom: 65px;
+	background-size: 100%;
+}
+
+.bottob_title span
+{
+	font-size: 23px;
+	color: #f5f0f4;
+}
+
+.bottob_title span a
+{
+	color: #fff;
+}
+.bottob_title input
+{
+	width: 398px;
+	height: 36px;
+	color: #ababab;
+	position: relative;
+	padding-left: 18px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: none;
+	padding-right: 50px;
+}
+
+.wrapper_for_input
+{
+	position: relative;
+	width: 398px;
+	height: 36px;
+	margin: auto;
+	margin-top: 10px;
+}
+/*.bottob_title .wrapper_for_input::after*/
+/*{*/
+	/*content: "\f002 ";*/
+	/*font-family: FontAwesome;*/
+	/*color: #ccc;*/
+	/*position: absolute;*/
+	/*right: 10px;*/
+	/*font-size: 25px;*/
+	/*di*/
+/*}*/
+
+
+.bottob_title input:active, .bottob_title input:hover, .bottob_title input:focus {
+    outline: 0;
+    outline-offset: 0;
+    box-shadow: inset 0 0 10px -3px #000;
+}

@@ -1,0 +1,162 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1500px)
+{
+  
+}
+@media only screen and (max-width : 1450px)
+{
+  
+}
+@media only screen and (max-width : 1400px)
+{
+  
+}
+
+@media only screen and (max-width : 1312px)
+{
+  
+}
+
+
+@media only screen and (max-width : 1175px)
+
+{
+  
+ 
+}
+
+@media only screen and (max-width : 1130px)
+{
+  
+}
+
+@media only screen and (max-width : 1024px)
+{
+	
+}
+@media only screen and (max-width: 991px)
+{	
+	
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 928px)
+ {
+
+	
+}
+
+@media only screen and (max-width : 800px)
+{
+  
+ 
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 770px)
+{	
+	
+}
+
+@media only screen and (max-width : 767px)
+{	
+	.head_title .error 
+	{
+    	font-size: 100px;
+	}
+
+	.head_title .error + p 
+	{
+    	font-size: 21px;
+	}
+
+	.bottob_title
+	{
+		max-width: 540px;
+		width: 100%;
+	}
+	.wrapper_for_input
+	{
+		width:100% ;
+		max-width: 398px ;
+	}
+	.bottob_title input
+	{
+		width:100% ;
+		max-width: 398px ;
+	}
+}
+@media only screen and (max-width : 550px) 
+{
+	.bottob_title
+	{
+		background-image: none;
+		padding: 0 10px;
+		margin-bottom: 0;
+	}
+
+	body
+	{
+		padding-top: 50px;
+	}
+
+
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 481px) 
+{
+
+	
+ 
+  }
+
+  @media only screen and (max-width : 411px) 
+{
+	
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 321px) 
+{
+    
+    
+}
+
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 928px)
+{
+	
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+{
+	
+}
+
+
+@media only screen and (min-width : 1919px)
+{
+ 
+}
