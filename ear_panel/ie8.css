@@ -1,0 +1,9 @@
+ .ear_panel ul.lvl_1>li:hover>span
+	{
+		top: 0;
+	}
+
+.ear_panel ul.lvl_2>li:hover>span
+		{
+			left: 0;
+		}

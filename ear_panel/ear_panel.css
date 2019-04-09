@@ -1,0 +1,373 @@
+	@font-face
+		{
+		    font-family: 'icomoon_test';
+		    src: url('icomoon_test.eot') format('eot'),
+		    	 url('icomoon_test.ttf') format('ttf'),
+		         url('icomoon_test.woff') format('woff');
+		    font-weight: normal;
+		    font-style: normal;
+
+		}
+
+		.ear_panel
+		{
+			height: 100%;
+			width: 130px;
+			text-transform: uppercase;
+			font-weight: 600;
+			font-family: Arial;
+			font-size: 14px;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+
+		.ear_panel *
+		{
+			margin: 0;
+			padding: 0;
+			transition: .4s;
+			-webkit-box-sizing: content-box;
+			-moz-box-sizing: content-box;
+			box-sizing: content-box;
+		}
+
+		.ear_panel span
+		{
+			word-wrap: break-word;
+		}
+
+		.ear_panel ul
+		{
+			list-style-type:none;
+		}
+
+		.ear_panel ul.lvl_1
+		{
+			text-align: center;
+
+		}
+
+		.ear_panel ul.lvl_1 li
+		{
+			height: 55px;
+			background-color: #FF9933;
+			margin: 0;
+			text-align:center;
+			cursor: default;
+			position: relative;
+			transition-timing-function: ease-out;
+			color: #000;
+			padding-top: 20px;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+
+		.ear_panel ul.lvl_1>li>span
+		{
+			position: relative;
+			top: 10px;
+		}
+		.ear_panel ul.lvl_1>li:hover>span
+		{
+			top: 20px;
+			color: #fff;
+		}
+
+
+
+		.ear_panel ul.lvl_1 li:hover
+		{
+			background-color: rgb(0,138,210);
+			-webkit-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, 0.3);
+			-moz-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, 0.3);
+			box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, 0.3);
+		}
+
+		.ear_panel ul.lvl_2
+		{
+			position: absolute;
+			left: 0px;
+			top: -1px;
+			opacity: 0;
+			visibility:hidden;
+			transition: .4s;
+		}
+
+		.ear_panel ul.lvl_2 li
+		{
+			height: 38px;
+			width: 185px;
+			padding-top: 0;
+			margin-bottom: 0;
+			cursor: pointer;
+			left: 30px;
+			border: none;
+		}
+
+		.ear_panel ul.lvl_2>li>span
+		{
+			position: relative;
+			left: 0;
+			top: 8px;
+		}
+
+		.ear_panel ul.lvl_1 li:hover ul.lvl_2,
+		.ear_panel ul.lvl_2 li:hover ul.lvl_3
+		{
+			opacity:  1;
+			visibility:visible;
+			left: 100px;
+		}
+
+		.ear_panel  ul.lvl_2 li:hover span
+		{
+			color: #fff;
+		}
+
+		.ear_panel ul.lvl_2 li:hover ul.lvl_3
+		{
+			left: 124px;
+		}
+
+		.ear_panel ul.lvl_3
+		{
+			position: absolute;
+		    left: 0;
+		    top: 0;
+		    opacity: 0;
+		    visibility:hidden;
+		    transition: .4s;
+		}
+
+		.ear_panel ul.lvl_2 ul.lvl_3
+		{
+			margin-left: 51px;
+		}
+
+		.ear_panel ul.lvl_2 .lvl_3 span
+		{
+			top: 8px;
+			position: relative;
+		}
+
+		.ear_panel ul.lvl_2 .lvl_3 span,
+		.ear_panel ul.lvl_2  span
+		{
+			font-size: 12px;
+		}
+
+		/*код расположения иконок в блоках уровня 1*/
+		/*Их общшие свойства*/
+		.ear_panel ul.lvl_1>li:before
+		{
+			font-weight: 400;
+			position: absolute;
+			opacity: .2;
+			font-size: 44px;
+			left: 0;
+			width: 100%;
+			-webkit-transition: all .6s;
+			-moz-transition: all .6s;
+			transition: all .6s;
+			font-family: "icomoon_test";
+			font-size: 50px;
+			top: 5px;
+		}
+
+		.ear_panel ul.lvl_1>li:hover:before
+		{
+			opacity: 1;
+			visibility:visible;
+			font-size: 35px;
+   			top: 5px;
+   			color: #fff;
+		}
+
+		.ear_panel ul.lvl_2>li:hover>span
+		{
+			left: 20px;
+		}
+
+
+		.ear_panel ul.lvl_2 .lvl_3 li
+		{
+			background-color:#f5c232;
+		}
+		.ear_panel ul.lvl_2 .lvl_3 li:hover
+		{
+			background-color: rgb(0,138,210);
+		}
+
+
+		/*отсчет блоков 1го уровня начинается сверху*/
+
+		.ear_panel ul.lvl_1>li.cl1:before
+		{
+			 content: "\a1";
+		}
+
+		.ear_panel ul.lvl_1>li.cl2:before
+		{
+			content: "\a3";
+		}
+
+		.ear_panel ul.lvl_1>li.cl3:before
+		{
+			content: "\b1";
+		}
+
+		.ear_panel ul.lvl_1>li.cl4:before
+		{
+			content: "\a2";
+		}
+
+		.ear_panel ul.lvl_1>li.cl5:before
+		{
+			content: "\a8";
+		}
+
+		.ear_panel ul.lvl_1>li.cl6:before
+		{
+			content: "\a5";
+		}
+
+		.ear_panel ul.lvl_1>li.cl7:before
+		{
+			content: "\a9";
+		}
+
+		.ear_panel ul.lvl_1>li.cl8:before
+		{
+			content: "\a4";
+		}
+
+		.ear_panel ul.lvl_1>li.cl9:before
+		{
+			content: "\a6";
+		}
+
+		.ear_panel ul.lvl_1>li.cl10:before
+		{
+			content: "\a7";
+		}
+
+		.ear_panel ul.lvl_1>li.cl11:before
+		{
+			content: "\b2";
+		}
+
+		/*расположение картинок для блоков 2го уровня*/
+
+
+		.ear_panel ul.lvl_1>li>ul>li:before
+		{
+			font-weight: 400;
+			position: absolute;
+			opacity: .2;
+			font-size: 37px;
+			left: 0;
+			width: 100%;
+			-webkit-transition: all .6s;
+			-moz-transition: all .6s;
+			transition: all .6s;
+			font-family: "icomoon_test";
+			opacity: .2 ;
+			top: 1px;
+		}
+
+		.ear_panel ul.lvl_1>li>ul>li:hover:before
+		{
+			font-size: 28px;
+			opacity: 1;
+			left: -58px;
+			top: 3px;
+			color: #fff;
+		}
+
+		.ear_panel ul.lvl_1>li.cl2>ul>li:nth-child(1):before
+		{
+			content: "\a3";
+		}
+
+		.ear_panel ul.lvl_1>li.cl1>ul>li:nth-child(1):before
+		{
+			content: "\a1";
+		}
+
+		.ear_panel ul.lvl_1>li.cl3>ul>li:nth-child(1):before
+		{
+			content: "\b1";
+		}
+
+		.ear_panel ul.lvl_1>li.cl4>ul>li:nth-child(1):before
+		{
+			content: "\a2";
+		}
+
+		.ear_panel ul.lvl_1>li.cl5>ul>li:nth-child(1):before
+		{
+			content: "\a8";
+		}
+
+		.ear_panel ul.lvl_1>li.cl6>ul>li:nth-child(1):before
+		{
+			content: "\a5";
+		}
+
+		.ear_panel ul.lvl_1>li.cl7>ul>li:nth-child(1):before
+		{
+			content: "\a9";
+		}
+
+		.ear_panel ul.lvl_1>li.cl8>ul>li:nth-child(1):before
+		{
+			content: "\a4";
+		}
+
+		.ear_panel ul.lvl_1>li.cl9>ul>li:nth-child(1):before
+		{
+			content: "\a6";
+		}
+
+		.ear_panel ul.lvl_1>li.cl10>ul>li:nth-child(1):before
+		{
+			content: "\a7";
+		}
+
+		.ear_panel ul.lvl_1>li.cl11>ul>li:nth-child(1):before
+		{
+			content: "\b2";
+		}
+
+
+
+
+ /*Если много пунктов больше 6,
+то лучше поставить класс, что приведёт к трансформации меню с элементами */
+
+.ear_panel .too_many
+{
+	width: 650px;
+}
+
+.ear_panel .too_many li
+{
+	float: left;
+}
+
+ .ear_panel .too_many li:hover ul.lvl_3
+{
+	z-index: 140;
+}
+
+body
+{
+background-color:#269;
+background-image: linear-gradient(rgb(212, 195, 255) 2px, transparent 2px),
+linear-gradient(90deg, rgb(212, 195, 255) 2px, transparent 2px),
+linear-gradient(rgb(212, 195, 255) 1px, transparent 1px),
+linear-gradient(90deg, rgb(212, 195, 255) 1px, transparent 1px);
+background-size:100px 100px, 100px 100px, 20px 20px, 20px 20px;
+background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px
+}
