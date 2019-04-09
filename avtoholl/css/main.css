@@ -1,0 +1,526 @@
+*::-webkit-input-placeholder {
+  color: #666;
+  opacity: 1;
+}
+
+*:-moz-placeholder {
+  color: #666;
+  opacity: 1;
+}
+
+*::-moz-placeholder {
+  color: #666;
+  opacity: 1;
+}
+
+*:-ms-input-placeholder {
+  color: #666;
+  opacity: 1;
+}
+
+* {
+  transition: .4s;
+}
+
+.container-fluid {
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.row, .container-fluid {
+  height: 100%;
+  max-height: 900px;
+}
+
+.col-sm-3 {
+  height: 100%;
+}
+
+.col-sm-6 {
+  height: 100%;
+}
+
+.row {
+  height: 100%;
+}
+
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.button_1 + button {
+  padding-left: 25px;
+  padding-right: 29px;
+}
+
+.button_1.odno_slovo {
+  padding-top: 23px;
+  padding-bottom: 15px;
+}
+
+.button_1 {
+  color: #fff;
+  background-color: #7192E0;
+  font-size: 1.5em;
+  font-family: BebasBold;
+  border: none;
+  border-bottom: 5px solid #0D7DDB;
+  text-align: left;
+  position: relative;
+}
+.button_1:hover {
+  background-color: #0acaE0;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+  /* ie 6/7 */
+}
+
+.first_slide {
+  padding-bottom: 33px;
+  background-image: url(../img/fon.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.first_slide header {
+  border-bottom: solid 1px rgba(255, 255, 255, 0.66);
+  background-color: rgba(0, 0, 0, 0.859);
+  padding-top: 14px;
+}
+.first_slide header a {
+  text-decoration: none !important;
+  text-transform: uppercase;
+}
+.first_slide header a:hover span {
+  color: #7189E0;
+}
+.first_slide header a:hover p {
+  text-decoration: underline;
+}
+.first_slide header a span {
+  font-size: 32px;
+  color: #5365A6;
+  font-family: BebasBold;
+  transition: .3s;
+}
+.first_slide header a span mark {
+  background: unset;
+  color: #fff;
+}
+.first_slide header a p {
+  color: #fff;
+  font-size: 22px;
+  font-family: BebasRegular;
+  position: relative;
+  bottom: 11px;
+}
+.first_slide header a img {
+  float: left;
+  margin-right: 17px;
+  position: relative;
+  top: 8px;
+}
+.first_slide header .logo {
+  width: 234px;
+  display: block;
+  margin: auto;
+  position: relative;
+  bottom: 10px;
+}
+.first_slide header .text_right {
+  text-align: right;
+}
+.first_slide h1 {
+  cursor: default;
+  font-family: BebasBold;
+  color: #fff;
+  text-align: center;
+  margin-top: 5.8%;
+  letter-spacing: 1px;
+  font-size: 40px;
+  text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.55);
+}
+.first_slide .first_buttons {
+  margin-top: 337px;
+}
+.first_slide .first_buttons .po_photo {
+  display: block;
+  float: left;
+  padding: 8px 26px 6px 69px;
+  margin-right: 21px;
+}
+.first_slide .first_buttons .po_photo::before {
+  content: url(../img/btnIcon.png);
+  position: absolute;
+  left: 13px;
+  top: 12px;
+}
+
+.separator_1 {
+  height: 10%;
+  background-color: #242424;
+  border-bottom: solid 2px #3b3b3b;
+}
+.separator_1 .list_menu {
+  margin-bottom: 0;
+}
+.separator_1 .list_menu li {
+  display: inline-block;
+  font-size: 1.75em;
+  line-height: 62px;
+  border-left: 2px solid #3b3b3b;
+  background-image: url(../img/icons.png);
+  background-repeat: no-repeat;
+  background-position: 15px 15px;
+  font-family: BebasRegular;
+  padding: 0 27px 0 43px;
+}
+.separator_1 .list_menu li:nth-child(1) {
+  border-left: none;
+}
+.separator_1 .list_menu li:nth-child(2) {
+  background-position-y: -81px;
+}
+.separator_1 .list_menu li:nth-child(3) {
+  background-position-y: -185px;
+}
+.separator_1 .list_menu li:nth-child(4) {
+  background-position-y: -277px;
+}
+.separator_1 .list_menu li:nth-child(5) {
+  background-position-y: -360px;
+}
+.separator_1 .list_menu li:nth-child(6) {
+  background-position-y: -443px;
+}
+.separator_1 .list_menu li:hover {
+  background-color: #050505;
+}
+.separator_1 .list_menu li:nth-child(4), .separator_1 .list_menu li:nth-child(5) {
+  background-position-x: 10px;
+}
+.separator_1 .list_menu li a {
+  color: #fff;
+}
+.separator_1 .list_menu li a:hover {
+  text-decoration: none;
+}
+.separator_1 .garantia {
+  float: right;
+  font-family: BebasRegular;
+  font-size: 1em;
+  color: #fff;
+  border: 3px solid #fff;
+  border-radius: 2px;
+  cursor: default;
+  margin: 3% 4% 0 0;
+  width: 100%;
+}
+.separator_1 .garantia .Dleft {
+  font-family: BebasBold;
+  font-size: 1.5em;
+  float: left;
+  margin: 9px 5px 0 12px;
+}
+.separator_1 .garantia .Dright {
+  float: right;
+  margin: 3px 7px 4px 1px;
+}
+.separator_1 .mobile_menu {
+  text-align: center;
+  color: #fff;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-family: BebasRegular;
+  display: none;
+}
+.separator_1 .mobile_menu h2 {
+  font-size: 2em;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.separator_1 .mobile_menu ul {
+  margin: 0;
+  padding: 0;
+}
+.separator_1 .mobile_menu ul li {
+  list-style: none;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 10px 0;
+  background: #05051D;
+  border: 1px solid #5365A6;
+}
+.separator_1 .mobile_menu ul li:nth-child(2n) {
+  background: #40404F;
+}
+.separator_1 .mobile_menu ul li a {
+  color: #fff;
+  font-size: 1.25em;
+}
+.separator_1 .mobile_menu ul li a:hover {
+  text-decoration: none;
+}
+
+.second_slide {
+  text-align: center;
+  background-color: #191919;
+}
+.second_slide h2 {
+  font-family: BebasRegular;
+  color: #c9c9c9;
+  font-size: 2.7em;
+  cursor: default;
+  margin: auto;
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  margin-bottom: 15px;
+  margin-top: 55px;
+}
+.second_slide h2::before {
+  content: url(../img/decore_3_lines.png);
+  position: absolute;
+  top: -5px;
+  left: -75px;
+}
+.second_slide h2::after {
+  content: url(../img/decore_3_lines_2.png);
+  position: absolute;
+  top: -5px;
+  right: -295px;
+}
+.second_slide img {
+  display: inline-block;
+  max-width: 225px;
+  position: relative;
+}
+.second_slide .dignities {
+  text-align: center;
+  padding: 0;
+  position: relative;
+  margin-top: 39px;
+}
+.second_slide .dignities > li {
+  margin: auto 14px;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 30px;
+  border: 2px solid #353535;
+  vertical-align: center;
+  font-family: BebasBold;
+  font-size: 1.2em;
+  background-color: #191919;
+  position: relative;
+}
+.second_slide .dignities > li:hover {
+  background-color: #2a2a2a;
+}
+.second_slide .dignities > li:hover .sec_spisok {
+  background-color: #353535;
+  color: #fff;
+}
+.second_slide .dignities > li > a {
+  margin: 25px 10px 0 10px;
+  color: #fff;
+  display: block;
+}
+.second_slide .dignities > li > a span {
+  display: block;
+  height: 83px;
+  width: 130px;
+  background-image: url(../img/icons2.1.png);
+  background-position: 17px 1px;
+  margin: -17px auto 0;
+}
+.second_slide .dignities > li:nth-child(2) span {
+  background-position-y: -150px;
+}
+.second_slide .dignities > li:nth-child(3) span {
+  background-position-y: 573px;
+  background-position-x: 11px;
+}
+.second_slide .dignities > li:nth-child(4) span {
+  background-position: 2px 82px;
+}
+.second_slide .dignities > li:nth-child(5) span {
+  background-position: 10px 1121px;
+}
+.second_slide .dignities > li:nth-child(6) span {
+  background-position: 7px 407px;
+}
+.second_slide .dignities > li .sec_spisok {
+  color: #5189E5;
+  background: #212121;
+}
+.second_slide .dignities .uslugi {
+  width: 400px;
+  background-color: #191919;
+  height: 105px;
+  display: none;
+  position: absolute;
+  margin: auto;
+  top: 220px;
+  bottom: 0;
+  left: -130px;
+  right: 0;
+  border-left: 20px #212121 solid;
+  border-right: 20px #212121 solid;
+  box-shadow: 0 0 0 2px #7192E0;
+  padding-top: 25px;
+  z-index: 1;
+}
+.second_slide .dignities .uslugi::before {
+  content: '';
+  border: 20px solid transparent;
+  border-bottom: 20px solid #7192E0;
+  position: absolute;
+  top: -42px;
+  left: 165px;
+}
+.second_slide .dignities .uslugi a {
+  display: inline;
+  color: #fff;
+  margin: 25px;
+}
+.second_slide .button_1 {
+  width: 216px;
+  text-align: center;
+  height: 50px;
+  padding-top: 10px;
+  margin-bottom: 50px;
+  margin-top: 115px;
+}
+
+.separator_2 {
+  color: #000;
+  text-align: center;
+}
+.separator_2 h3 {
+  font-family: BebasBold;
+  font-size: 2.7em;
+  text-transform: uppercase;
+  position: relative;
+  max-width: 627px;
+  margin: 38px auto 15px;
+}
+.separator_2 h3::before, .separator_2 h3::after {
+  display: block;
+  position: absolute;
+  top: -4px;
+}
+.separator_2 h3::before {
+  content: url(../img/decore_3_lines_3.png);
+  left: -45px;
+}
+.separator_2 h3::after {
+  content: url(../img/decore_3_lines_4.png);
+  right: -45px;
+}
+.separator_2 p {
+  font-family: RobotoRegular;
+  font-size: 16px;
+  font-weight: 600;
+  max-width: 790px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.third_slide {
+  background-color: #cad0ff;
+  padding-bottom: 44px;
+}
+.third_slide img {
+  display: block;
+  width: 100%;
+  height: 217px;
+  border-top: 8px solid #0D7DDB;
+  margin: 42px auto 24px;
+}
+.third_slide p {
+  font-family: RobotoRegular;
+  font-size: 16px;
+  font-weight: 600;
+  max-width: 790px;
+  text-align: center;
+  color: #000;
+}
+
+.fourth_slide .row {
+  max-height: unset !important;
+}
+.fourth_slide h3 {
+  float: left;
+  color: #000;
+  font-family: BebasBold;
+  font-size: 36px;
+  text-transform: uppercase;
+  margin-top: 43px;
+}
+.fourth_slide .button_1 {
+  float: right;
+  padding: 13px 27px 4px;
+  margin-top: 33px;
+}
+.fourth_slide img {
+  width: 100%;
+  margin-top: 37px;
+}
+.fourth_slide span,
+.fourth_slide p {
+  font-family: RobotoRegular;
+  font-size: 16px;
+  font-weight: 600;
+  max-width: 790px;
+  text-align: left;
+  color: #000;
+}
+.fourth_slide span {
+  padding-top: 37px;
+  display: inline-block;
+}
+
+footer {
+  background-color: #102022;
+  text-transform: uppercase;
+  font-family: BebasRegular;
+  color: #fff;
+  padding: 26px 0 26px;
+  font-size: 20px;
+}
+footer ul {
+  margin: auto;
+  text-align: center;
+}
+footer ul li {
+  display: inline-block;
+  margin: 0 13px;
+}
+footer ul li a {
+  color: #fff;
+}
+footer ul li a:hover {
+  color: #fff;
+}
+footer .copy {
+  float: left;
+}
+footer .me {
+  float: right;
+}
+
+/*# sourceMappingURL=main.css.map */
