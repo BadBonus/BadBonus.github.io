@@ -1,0 +1,33 @@
+ 
+@font-face 
+{
+     font-family:"BadScriptRegular";
+     src: url(../fonts/BadScriptRegular/BadScriptRegular.ttf);
+     font-style: normal;
+    font-weight: normal;
+}
+ 
+ @font-face 
+{
+     font-family:"CleanvertisingLight";
+     src: url(../fonts/CleanvertisingLight/CleanvertisingLight.ttf);
+     font-style: normal;
+    font-weight: normal;
+}
+ 
+  @font-face 
+{
+     font-family:"RobotoBold";
+     src: url(../fonts/RobotoBold/RobotoBold.ttf);
+     font-style: normal;
+    font-weight: normal;
+}
+ 
+  @font-face 
+{
+     font-family:"RobotoRegular";
+     src: url(../fonts/RobotoRegular/RobotoRegular.ttf);
+     font-style: normal;
+    font-weight: normal;
+}
+ 

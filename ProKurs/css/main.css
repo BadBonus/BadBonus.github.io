@@ -1,0 +1,513 @@
+*::-webkit-input-placeholder {
+  color: #666;
+  opacity: 1;
+}
+
+*:-moz-placeholder {
+  color: #666;
+  opacity: 1;
+}
+
+*::-moz-placeholder {
+  color: #666;
+  opacity: 1;
+}
+
+*:-ms-input-placeholder {
+  color: #666;
+  opacity: 1;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container-fluid {
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.row, .container-fluid {
+  height: 100%;
+}
+
+.col-sm-3 {
+  height: 100%;
+}
+
+.col-sm-6 {
+  height: 100%;
+}
+
+.row {
+  height: 100%;
+}
+
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+  /* ie 6/7 */
+}
+
+/*---------------------------------------header--------------------------------*/
+.headSection {
+  background-image: url(../img/top_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.headSection h1 {
+  font-family: CleanvertisingLight;
+  color: #fff;
+  font-size: 59px;
+  padding: 0;
+  margin: 40px 0 2px 14px;
+  font-weight: 600;
+}
+.headSection p {
+  font-family: CleanvertisingLight;
+  color: #fff;
+  font-size: 38px;
+  padding: 0;
+  margin: 0 0 0 14px;
+  font-weight: 600;
+}
+.headSection .discount {
+  background-image: url(../img/fon_discount.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin: 85px 0 40px 0;
+  position: relative;
+}
+.headSection .discount a.discount, .headSection .discount a.discount + a {
+  content: "";
+  font-family: "RobotoBold";
+  position: absolute;
+  left: 0;
+  top: -140px;
+  width: 208px;
+  height: 55px;
+  background-image: url(../img/fon_discount.png);
+  text-align: center;
+  font-size: 17px;
+  padding-top: 16px;
+  color: #000;
+  direction: block;
+}
+.headSection .discount a.discount + a {
+  width: 265px;
+  content: "";
+  left: 208px;
+  top: -55px;
+  color: #fff;
+  background-image: url(../img/fon_discountAddit.png);
+}
+.headSection .discount ul {
+  padding: 24px 0 0px 72px;
+}
+.headSection .discount ul li {
+  margin-bottom: 10px;
+}
+.headSection .discount span {
+  text-transform: uppercase;
+  font-family: "RobotoBold";
+  color: #000;
+  font-size: 17px;
+}
+.headSection .discount .startEducation {
+  font-size: 16px;
+  font-family: RobotoBold;
+  border-radius: 3px;
+  background-color: #9b1818;
+  width: 220px;
+  height: 47px;
+  display: block;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 13px 0 0 0;
+  float: right;
+  margin: 0 25px 20px 0;
+}
+
+header {
+  top: 7px;
+  position: relative;
+}
+header h2 {
+  float: left;
+  font-size: 40px;
+  font-family: "RobotoBold";
+  color: #fff;
+  margin-top: 32px;
+}
+header span {
+  color: #fff;
+  float: right;
+  font-size: 33px;
+  font-family: "RobotoBold";
+}
+header span span {
+  font-family: "RobotoRegular";
+  font-size: 20px;
+  text-align: right;
+  top: 17px;
+  position: relative;
+  text-transform: uppercase;
+}
+header span a {
+  color: #fff;
+}
+header span a:hover {
+  color: #fff;
+}
+
+.partition {
+  background-color: #dae6f3;
+  text-align: left;
+  padding: 40px 0 34px 0;
+}
+.partition a p, .partition a span {
+  font-family: CleanvertisingLight;
+  color: #003469;
+  text-transform: uppercase;
+}
+.partition a p:hover, .partition a span:hover {
+  color: #003469;
+}
+.partition a span {
+  font-size: 19px;
+}
+.partition a.atrib2 span, .partition a.atrib3 span {
+  font-size: 15px;
+}
+.partition a.atrib4 span {
+  font-size: 14px;
+}
+.partition a p {
+  font-size: 22px;
+}
+.partition img {
+  float: left;
+  margin: 0 12px 0 0;
+}
+.partition .pravka {
+  position: relative;
+  bottom: 7px;
+}
+.partition img.atrib1 {
+  display: block;
+  margin: auto;
+  margin-right: 12px;
+}
+
+/*---------------------------------------secondSection--------------------------------*/
+.secondSection {
+  text-align: center;
+}
+.secondSection h2 {
+  font-family: CleanvertisingLight;
+  font-size: 50px;
+  color: #003469;
+  margin: 57px 0 54px 0;
+}
+.secondSection img {
+  float: left;
+  margin: 0px 33px 35px 14.375%;
+}
+.secondSection .block {
+  text-align: left;
+}
+.secondSection .block span {
+  font-family: RobotoBold;
+  color: #9b1818;
+  font-size: 2.4em;
+}
+.secondSection .block p {
+  font-family: RobotoRegular;
+  font-size: 15px;
+}
+.secondSection .block .txtBlock {
+  position: relative;
+  top: -10px;
+}
+.secondSection form {
+  border: 5px solid #67bc5c;
+  width: 348px;
+  display: block;
+  margin: auto;
+  border-radius: 2%;
+}
+.secondSection form p {
+  text-align: left;
+  clear: both;
+  font-size: 14px;
+  font-family: RobotoRegular;
+  color: #666;
+  margin-left: 30px;
+}
+.secondSection form input {
+  float: left;
+  border: 1px solid #d9d9d9;
+  box-shadow: inset 0px 0px 21px 0px rgba(0, 0, 0, 0.06);
+  width: 284px;
+  height: 41px;
+  border-radius: 3%;
+  font-size: 20px;
+  color: #666;
+  margin: 0 0 11px 27px;
+}
+.secondSection form input:focus {
+  border: solid 3px #67bc5c;
+}
+.secondSection form a.button {
+  font-size: 16px;
+  font-family: RobotoBold;
+  color: #fff;
+  text-transform: uppercase;
+  background: #67bc5c;
+  width: 220px;
+  height: 47px;
+  box-shadow: none;
+  outline: none;
+  display: block;
+  margin: 87px auto 46px auto;
+  padding-top: 13px;
+  border-radius: 3%;
+}
+.secondSection form select {
+  float: left;
+  border: 1px solid #d9d9d9;
+  box-shadow: inset 0px 0px 21px 0px rgba(0, 0, 0, 0.06);
+  width: 284px;
+  height: 41px;
+  border-radius: 3%;
+  font-size: 20px;
+  color: #666;
+  margin: 0 0 11px 27px;
+}
+.secondSection form select:focus {
+  border: solid 3px #67bc5c;
+  box-shadow: none;
+}
+
+#select {
+  position: relative;
+  display: inline-block;
+}
+
+select {
+  padding-right: 25px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.decorate {
+  position: relative;
+}
+
+.decorate::after {
+  content: url(../img/arrow_down.jpg);
+  position: absolute;
+  right: 43px;
+  top: 10px;
+}
+
+/*---------------------------------------reviews--------------------------------*/
+.reviews {
+  background-image: url(../img/middle_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.reviews h3 {
+  font-size: 50px;
+  font-family: CleanvertisingLight;
+  color: #fff;
+  padding: 59px 0 61px 0;
+}
+.reviews .photo {
+  border-style: solid;
+  border-width: 10px;
+  border-color: rgba(255, 255, 255, 0.28);
+  border-radius: 50%;
+  background-color: rgba(206, 163, 128, 0.28);
+  width: 169px;
+  height: 169px;
+  margin: 0px auto 19px auto;
+  overflow: hidden;
+}
+.reviews .photo img {
+  width: 100%;
+}
+.reviews p.name {
+  font-family: "TimeNewRoman";
+  font-size: 19px;
+  color: #fff;
+  position: relative;
+  margin: 0 0 45px 0;
+}
+.reviews p.name::after {
+  content: "";
+  width: 80px;
+  height: 2px;
+  background-color: #cea380;
+  position: absolute;
+  top: 46px;
+  margin-left: -127px;
+}
+.reviews p.opinion {
+  font-family: RobotoRegular;
+  font-size: 15px;
+  color: #fff;
+}
+.reviews p.opinion::after {
+  display: none;
+}
+.reviews .bx-wrapper {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  background: none;
+}
+
+.separator {
+  background-image: url(../img/red_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.separator h3 {
+  color: #fff;
+  text-transform: uppercase;
+  margin: 35px auto 0 auto;
+  padding: 18px 0 20px 0;
+  font-family: RobotoRegular;
+  font-size: 26px;
+  background-color: rgba(255, 255, 255, 0.129);
+}
+.separator button {
+  background-color: white;
+  width: 220px;
+  height: 47px;
+  font-family: RobotoBold;
+  color: #000;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 27px 0 31px 0;
+}
+
+/*---------------------------------------.lastSection--------------------------------*/
+.lastSection .find {
+  text-align: right;
+}
+.lastSection .find span {
+  font-family: Cleanvertising;
+  font-size: 50px;
+  color: #000;
+  display: block;
+  margin-top: 32px;
+}
+.lastSection .switcher {
+  max-width: 435px;
+  width: 100%;
+  background-color: #9b1818;
+  height: 47px;
+  border-radius: 2%;
+  margin: 48px 0 0 0;
+}
+.lastSection .switcher a {
+  max-width: 209px;
+  width: 100%;
+  height: 38px;
+  background-color: #FFF;
+  display: block;
+  float: left;
+  margin: 4px 0 0 5px;
+  padding-top: 7px;
+  text-align: center;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: RobotoBold;
+  color: #6d0a0a;
+}
+.lastSection .switcher a.active {
+  background-color: #9b1818;
+  color: #fff;
+}
+.lastSection .switcher h5 {
+  font-size: 18px;
+  font-family: RobotoRegular;
+  color: #333333;
+  margin-bottom: 35px;
+}
+.lastSection .map {
+  margin-top: 30px;
+}
+.lastSection .footer {
+  text-align: center;
+}
+.lastSection .footer h5 {
+  font-family: CleanvertisingLight;
+  font-size: 50px;
+  color: #000;
+  margin-bottom: 30px;
+  margin-top: 74px;
+}
+.lastSection .footer h5 p {
+  font-family: RobotoRegular;
+  font-size: 18px;
+}
+.lastSection .footer a.button {
+  display: block;
+  border-radius: 3px;
+  background-color: #9b1818;
+  width: 220px;
+  height: 47px;
+  margin: 20px auto 150px auto;
+  font-family: RobotoBold;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding-top: 13px;
+}
+.lastSection span.decor {
+  color: #9b1818;
+  float: center;
+  font-size: 33px;
+  font-family: "RobotoBold";
+}
+.lastSection span.decor span.cites {
+  font-family: "RobotoRegular";
+  font-size: 20px;
+  text-align: center;
+  top: 11px;
+  position: relative;
+  text-transform: uppercase;
+}
+.lastSection span.decor a {
+  text-align: center;
+  color: #9b1818;
+  font-size: 13px;
+}
+.lastSection span.decor a:hover {
+  color: #9b1818;
+}
+
+/*# sourceMappingURL=main.css.map */

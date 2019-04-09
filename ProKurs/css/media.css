@@ -1,0 +1,292 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1500px)
+{
+  
+}
+@media only screen and (max-width : 1450px)
+{
+  
+}
+@media only screen and (max-width : 1400px)
+{
+  
+}
+
+@media only screen and (max-width : 1312px)
+{
+  
+}
+
+@media only screen and (max-width : 1200px)
+{
+	section.lastSection .find 
+	{
+    	text-align: center;
+	}
+	section.lastSection .switcher, 
+	section.lastSection  h5
+	{
+		margin: auto;
+		text-align: center;
+		margin-top: 20px;
+	}
+
+ div.partition
+ {
+	text-align: center;
+ }
+  div.partition a
+  {
+  	display: inline-block;
+  }
+  div.partition img
+  {
+  	float: none;
+  	margin-bottom: 15px;
+  }
+   div.partition .col-sm-3:last-child img
+   {
+   	margin-bottom: 19px;
+   }
+
+  div.partition img.atrib1
+ 	{
+ 		margin:auto;
+ 		margin-bottom: 17px;
+ 	}
+}
+
+
+@media only screen and (max-width : 1175px)
+
+{
+  
+ 
+}
+
+@media only screen and (max-width : 1130px)
+{
+  
+}
+
+@media only screen and (max-width : 1024px)
+{
+	
+}
+@media only screen and (max-width: 991px)
+{	
+	
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 928px)
+ {
+
+	
+}
+
+@media only screen and (max-width : 800px)
+{
+  
+ 
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 770px)
+{	
+	
+}
+
+@media only screen and (max-width : 767px)
+{	
+	section.secondSection img
+	{
+		margin: 25px auto;
+		float: none;
+	}
+	div.partition img 
+	{
+		clear: both;
+		margin: 40px auto 10px auto;
+	}
+	div.partition a 
+	{
+    	display: block;
+	}
+	section.secondSection .block
+	{
+    text-align: center;
+	}
+	section.secondSection .block span
+	{
+		font-size: 2em;
+	}
+
+}
+@media only screen and (max-width : 550px) 
+{
+	.headSection div.discount a.discount
+	{
+		width: 100px;
+		font-size: 13px;
+		padding-top: 9px;
+
+	}
+
+	.headSection div.discount a.discount+a
+	{
+		width: 150px;
+		font-size: 13px;
+		padding-top: 9px;
+		left: 100px;
+	}
+
+	section.secondSection h2 
+	{
+		font-size:36px;
+	}
+	
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 481px) 
+{
+	 section.separator h3
+	 {
+	 	font-size: 20px;
+	 	
+	 }
+
+	 section.lastSection .switcher
+	{
+		height: 120px;
+		padding-top: 1px; 
+	}
+	section.lastSection .switcher a
+	{
+		margin: 10px auto;
+		min-width: 115px;
+		float: none;
+	}
+	
+	.lastSection div.map iframe
+	{
+		height: 400px;
+	}
+  }
+
+  @media only screen and (max-width : 411px) 
+{
+	section.secondSection form
+	{
+		border: 3px solid #67bc5c;
+		width: 255px;
+	}
+	section.secondSection form input,
+	section.secondSection form select
+	{
+		width: 194px;
+	}
+	 section.secondSection h2
+	{
+
+	}
+	
+	{
+		font-size: 35px;
+	}
+	span.cites a
+	{
+		font-size: 25px;
+	}
+	section.headSection header
+	{
+		text-align: center;
+	}
+
+	section.headSection header h2
+	{
+		float: none;
+	}
+
+	section.headSection header span
+	{
+		float: none;
+		font-size:27px; 
+	}
+	section.headSection header span span
+	{
+		top: 0;
+		text-align: center;
+		font-size: 30px;
+	}
+
+	section.headSection  h1
+	{
+		font-size: 51px;
+		text-align: center;
+	}
+
+	section.headSection h1+p
+	{
+		text-align: center;
+	}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 321px) 
+{
+	section.lastSection span.decor {font-size: 30px;}
+   .headSection div.discount a.startEducation
+   {
+   	margin-left: auto;
+   	margin-right: auto;
+   	float: none;
+   }
+   .headSection div.discount ul
+   {
+   	padding: 24px 0 0px 15px;
+   }
+
+  
+}
+
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) 
+{
+	 
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 928px)
+{
+	
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+{
+	
+}
+
+
+@media only screen and (min-width : 1919px)
+{
+ 
+}
