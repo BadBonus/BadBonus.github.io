@@ -1,0 +1,45 @@
+/*---------------------------OpenSans---------------------------*/
+@font-face 
+{
+     font-family:"AlegreyaBold";
+     src: url(../fonts/alegria/AlegreyaBold.otf);
+     font-style: normal;
+    font-weight: normal;
+}
+
+ @font-face 
+{
+     font-family:"AlegreyaRegular";
+     src: url(../fonts/alegria/AlegreyaRegular.otf);
+     font-style: normal;
+    font-weight: normal;
+}
+
+ 
+ @font-face 
+{
+     font-family:"proximanova-regular";
+     src: url(../fonts/proximanova-regular.otf);
+     font-style: normal;
+    font-weight: normal;
+}
+
+ 
+ @font-face 
+{
+     font-family:"PlayfairDisplayBold";
+     src: url(../fonts/PlayfairDisplayBold.otf);
+     font-style: normal;
+    font-weight: normal;
+}
+
+ 
+ @font-face 
+{
+     font-family:"scriptina";
+     src: url(../fonts/scriptina.ttf);
+     font-style: normal;
+    font-weight: normal;
+}
+
+ 

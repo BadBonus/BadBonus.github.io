@@ -1,0 +1,568 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1500px)
+{
+  
+}
+@media only screen and (max-width : 1450px)
+{
+  
+}
+@media only screen and (max-width : 1400px)
+{
+  
+}
+
+@media only screen and (max-width : 1312px)
+{
+  
+}
+
+@media only screen and (max-width : 1230px)
+{
+  body header
+  {
+  	padding: 0 2%;
+  }
+}
+
+@media only screen and (max-width : 1200px)
+{
+ 	div.segment4 div.paper::after {right:-10px;}
+	div.segment5 footer span
+	{
+		opacity: 0;
+	}
+	div.segment5 footer ul.right_part 
+	{
+    	float: unset;
+	}
+	div.segment5 footer ul.right_part li:first-child::before
+	{
+		content: "~";
+		position: relative;
+		right: 42px;
+	}
+
+}
+ 
+
+@media only screen and (max-width : 1175px)
+{
+ .segment3 div.ready_in_time 
+ {
+	right: 50px;
+	top: -140px;
+ }
+
+}
+
+@media only screen and (max-width : 1130px)
+{
+  
+}
+
+@media only screen and (max-width : 1024px)
+{
+	div.segment3 .box-wrapper 
+	{
+		width: 100%;
+	}
+	div.segment3 .owl-carousel
+	{
+		margin: 25px auto;
+		padding:0 100px;
+	}
+	div.owl-carousel .owl-nav .owl-prev
+	{
+		right: 255px;
+	}
+	div.owl-carousel .owl-nav .owl-next
+	{
+		left: 255px;
+	}
+	div.segment3 .box-wrapper .slider img
+	{
+		width:100px;
+		margin: auto;
+		display: block;
+	}
+	
+	div.segment3 .box-wrapper .slider 
+	{
+		text-align: center;
+		padding-left: 50px;
+		padding-right: 50px;
+
+	}
+	div.segment3 .box-wrapper .slider h4
+	{
+		text-align: center;
+	}
+	div.segment3 .box-wrapper .slider h4 + p + p
+	{
+		text-align: center;
+		padding: 15px 100px;
+	}
+	div.segment3 .box-wrapper .left_show_part
+	{
+		display: none;
+	}
+	div.segment3 .box-wrapper .slider
+	{
+		float: unset;
+		width: 100%;
+	}
+
+	.segment3 div.ready_in_time 
+	{
+	    left: 50px;
+	    top: -120px;
+	}
+@media only screen and (max-width: 991px)
+{	
+	div.segment5 footer
+	{
+		top: 25px;
+	}
+	div.segment5 footer span 
+	{
+    	opacity: 1;
+    	top: 110px;
+    	position: relative;
+    	font-size: 4em;
+	}
+
+	div.segment5 footer ul.right_part li:first-child::before
+	{
+		display: none;
+	}
+	div.segment5 footer ul.left_part 
+	{
+		float: left;
+	}
+
+	div.segment5 footer ul.right_part 
+	{
+		float: right;
+	}
+
+	div.segment5 footer ul li
+	{
+		display: block;
+	}
+	div.segment5 footer ul li::after
+	{
+		display: none;
+	}
+
+	 div.segment5 .col-md-3 ul
+	{
+		padding-left: 0 ;
+	}
+	header nav.links ul li a::after
+	{
+		margin-left: 12px;
+	}
+	header nav.links ul li a
+	{
+		letter-spacing: 0;
+	}
+	div.segment4 div.paper::after 
+ 	{
+	    right: 130px;
+	    bottom: 20px;
+ 	}
+
+ 	div.segment5 ul 
+ 	{
+    margin-top: 15px;
+	}
+
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 928px)
+ {
+
+	
+}
+
+@media only screen and (max-width : 800px)
+{
+  
+ 
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 770px)
+{
+	header nav.links ul
+	{
+		margin-left: 4%;
+	}
+	
+	header .socLinks a
+	{
+		position: absolute;
+		right: 0;
+	}
+	header .socLinks a:first-child
+	{
+		right: 80px;
+	}	
+	header .socLinks a:last-child
+	{
+		right: 47px;
+	}
+	header .socLinks a i
+	{
+		font-size: 2em;
+	}
+	div.segment4 div.paper::after 
+ {
+   display: none;
+ }
+
+ header nav.links ul li 
+ {
+    display: none;
+ }
+
+ header nav.links ul li.navBar
+ {
+ 	display: inline-block;
+ }
+
+}
+
+@media only screen and (max-width : 767px)
+{	
+	
+}
+
+@media only screen and (max-width : 680px)
+{	
+	
+	body div.segment1 h1::after
+	{
+		display: none;
+
+	}
+
+	div.segment5 .info_blocks 
+	{
+	    height: 175px;
+	    right: 0;
+	    top: 45px;
+	}
+
+	div.segment5 .info_blocks.COOK 
+	{
+    	top: 221px;
+	}
+
+	div.segment5 .info_blocks.READY 
+	{
+    	top: 397px;
+	}
+
+	div.owl-carousel .owl-nav .owl-prev
+	{
+		right: 175px;
+		background: #CFCDBD;
+		border-color: unset;
+		color: unset;
+
+	}
+	div.owl-carousel .owl-nav .owl-next
+	{
+		left: 175px;
+		background: #CFCDBD;
+		border-color: unset;
+		color: unset;
+
+	}
+
+	div.segment3 .box-wrapper .slider 
+	{
+		text-align: center;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	div.segment3 .owl-carousel 
+	{
+	    margin: 25px auto;
+	    padding: 0 50px;
+	}
+
+
+}
+@media only screen and (max-width : 550px) 
+{	
+	div.segment5 footer
+	{
+		top: 75px;
+	}
+	div.segment5 footer span 
+	{
+		display: none;
+	}
+	div.segment5 .info_blocks 
+	{
+    	height: 136px;
+	}
+
+	div.segment5 .info_blocks span 
+	{
+	    font-size: 15px;
+	    vertical-align: -25px;
+	}
+
+	div.segment5 .prep p 
+	{
+    	font-size: 45px;
+	}
+
+	div.segment5 .info_blocks.COOK 
+	{
+    	top: 182px;
+	}
+
+	div.segment5 .info_blocks.READY 
+	{
+    	top: 319px;
+	}
+	div.segment5 .info_blocks.READY span
+	{
+		vertical-align: -40px;
+	}
+
+	div.segment5 .READY p 
+	{
+	    font-size: 55px;
+	    margin-top: -13px;
+	}
+
+
+
+
+
+
+	body div.segment1 .baton
+	{
+		top: -210px;
+	}
+	body div.segment1 h1
+	{
+		font-size: 4em;
+		padding-top: 90px;
+		padding-bottom: 40px;
+
+	}
+	body div.segment1 
+	{padding-bottom: 0;}
+	body div.segment1 button
+	{
+		margin-bottom: 0;
+		margin-top: 25px;
+	}
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 481px) 
+{
+	div.owl-carousel .owl-nav .owl-next
+	{
+		left: 75px;
+	}
+	div.owl-carousel .owl-nav .owl-prev
+	{
+		right: 75px;
+	}
+	div.segment2 .decorOfAva::after,
+	div.segment2 .decorOfAva::before
+	{
+		display: none;
+	}
+	body .segment4 div.paper 
+	{
+		background: #F4F1E9;
+		box-shadow: 0 0 0px 4px #F4F1E9;
+		border: 1px dashed #B2AFA6;
+		background-image: none !important;
+		overflow: hidden !important;
+		padding-bottom: 15px;
+	}
+	body .segment4 div.paper::after
+	{
+		content: url(../img/EAR.png);
+		position: absolute;
+		left: 37%;
+		bottom: 310px;
+		display: block;
+		transform: rotate(87deg);
+	}
+	
+ 
+  }
+
+  @media only screen and (max-width : 411px) 
+{
+	div.segment5
+	{
+		padding-bottom: 20px;
+	}
+	div.segment5 footer
+	{
+		display: none;
+	}
+	div.segment2 div.chef::after
+	{
+		display: none;
+	}
+
+	div.segment2 div.chef::before
+	{
+		content: "Benito Gaspare"
+	}
+
+	div.segment2 .ava_cook 
+	{
+	    margin: 50px 25px 0 25px;
+	}
+
+	div.segment2 img.goodFood 
+	{
+    	margin: 45px auto 40px auto;
+	}
+	
+	div.segment5 div.info_blocks 
+	{
+		min-width: 100px;
+		top: -30px;
+		left:0;
+
+	}
+	div.segment5 div.info_blocks span
+	{
+		vertical-align: -18px;
+	}
+	
+	div.segment5 div.info_blocks.COOK span
+	{
+	    vertical-align: -24px;
+	}
+
+	div.segment5 .COOK p
+	{
+    	font-size: 45px;
+	}
+
+
+	div.segment5 div.info_blocks.COOK
+	 {
+	    top: -30px;
+	    left: 101px;
+	}
+
+	div.segment5 .info_blocks.READY 
+	{
+	    top: -30px;
+	    left: 202px;
+	}
+
+	div.segment5 .info_box button 
+	{
+		top: 5px;
+	}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 321px) 
+{
+	.segment3 div.ready_in_time 
+	{
+	    left: 25px;
+	    top: -120px;
+	}
+
+	div.segment3 .box-wrapper .slider h4 + p + p 
+	{
+	    text-align: center;
+	    padding: 0 5px;
+	}
+
+    div.segment5 div.info_blocks 
+    {
+    	min-width: 80px;
+	}
+
+	div.segment5 div.info_blocks.COOK 
+	{
+    	left: 81px;
+	}
+
+	div.segment5 .info_blocks.READY 
+	{
+	    left: 162px;
+	}
+	
+	body .segment4 div.paper 
+	{
+		padding-top: 60px;
+	}
+    
+}
+
+@media only screen and (max-width : 291px) 
+{
+    div.segment2 span.supH2
+    {
+   	 vertical-align: 0;
+	}
+
+    
+}
+
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 928px)
+{
+	
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+{
+	 header nav.links ul li a::after
+	{
+		margin-left: 35px;
+	}
+}
+
+
+@media only screen and (min-width : 1919px)
+{
+ 
+}
