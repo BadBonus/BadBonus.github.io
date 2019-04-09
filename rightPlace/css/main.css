@@ -1,0 +1,362 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+
+}
+body input:required:valid,
+body textarea:required:valid {
+
+}
+.container-fluid
+{
+	width: 100%;
+	margin: 0 auto background: blue;
+	height: 100%;
+}
+
+}
+.row,.container-fluid{
+	height: 100%;
+	max-height: 900px;
+}
+.col-sm-3
+{
+	height: 100%;
+
+}
+
+.col-sm-6
+{
+height: 100%;
+}
+
+.row
+{
+	height: 100%;
+}
+
+body
+{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.clearfix:before,
+.clearfix:after {
+content: "";
+display: table;
+}
+ 
+.clearfix:after {
+clear: both;
+}
+.clearfix {
+zoom: 1; /* ie 6/7 */
+}
+/*---------------------------------------slide1--------------------------------*/
+
+.slide1
+{
+	height: 800px;
+	background-image: url(../img/fon.png);
+	background-position: center center;
+	background-repeat: no-repeat;      
+	background-size: cover;
+	position: relative;
+	text-align: center;
+}
+
+.logo
+{
+	position: relative;
+	margin: 0 auto 134px auto;
+	width: 273px;
+	height: 273px;
+	top: 67px;
+}
+
+.slide1 h1
+{
+	color: #fff;
+	font-size: 49.35px;
+	font-family: OpenSans;
+	text-transform: uppercase;
+}
+
+.slide1 h1.logoH1
+{
+	font-family: OpenSansBold;
+}
+/*--------------------рекламный блок-------------------*/
+.advertising
+{
+	width: 335px;
+	height: 335px;
+	position: absolute;
+	background-color: #fff;
+	margin: auto;
+	top: 590px;
+	text-align: center;
+	box-shadow: inset 0px -1px 0px 0px #c4c4c4;
+	z-index: 5000;
+}
+
+.advertising form input
+{
+	width: 270px;
+	border-radius: 3px;
+	border: 2px solid #e8e8e8;
+	padding-left: 10px;
+	margin-top: 30px
+}
+.gallery
+{
+	width: 335px
+	height: 88px;
+	position: relative;
+	margin-top: 23px;
+	margin-bottom: 137px;
+}
+.miniblock
+{
+	width: 67px;
+	height: 44px;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+.active
+{
+	border: 2px solid darkblue;
+}
+
+.miniblock img
+{
+	width:67px;
+	height: 44px;
+	cursor: pointer;
+}
+
+.advertising span
+{
+	padding: 0 10px;
+}
+.advertising button
+{
+	display: block;
+	width: 192px;
+	height: 45px;
+	background-color: #227dd3;
+	color: #fff;
+	border: none;
+	font-size: 26px;
+	font-family: OpenSansSemiBold; 
+	margin: 0 auto;
+	margin-top: 24px;
+}
+  
+.sticky
+{
+	position: fixed !important;
+	top: 20px;
+}
+/*---------------------------------------slide2--------------------------------*/
+div.slide2
+{	
+	height: 400px;
+	width: 100%;
+	position: relative; 
+	overflow: visible;
+	font-size: 14px;
+	font-family: OpenSansLight;
+}
+.docs
+{
+	width: 410px;
+	height: 125px;
+	margin: 0 auto;
+	margin-top:170px; 
+}
+
+.docs img
+{
+	float: left;
+	margin-right: 15px;
+}
+
+
+ .docs h3
+ {
+ 	font-size: 27px;
+ 	padding-top: 9px;
+ 	font-family: OpenSansSemiBold;
+ }
+
+ /*---------------------------------------slide3--------------------------------*/
+ .slide3
+ {
+ 	margin-top: 68px;
+ 	height: 970px;
+ 	background-image: url(../img/slFon3.png);
+ 	background-position: center center;
+ 	background-repeat: no-repeat;     
+ 	background-size: cover;
+ 	background-color: #5fc18b;
+ 	position: relative;
+ 	text-align: center;
+ 	color: #fff;
+ }
+ 
+ .slide3 h2
+ {
+ 	font-family: OpenSansSemiBold;
+ 	font-size: 39px;
+ 	padding-top: 290px;
+ }
+
+ .slide3 p
+ {
+ 	display: block;
+	font-family: OpenSansLight;
+	margin: auto;
+	width: 650px;
+ }
+
+ .slide3 p:last-child
+ {
+	padding-top: 39px;
+ }
+/*---------------------------------------slide4--------------------------------*/
+.slide4
+{
+	height: 480px;
+	width: 100%;
+	background: #44a36f;
+	background-image: url(../img/slFon4.png);
+	background-position: center center;
+	background-repeat: no-repeat;     
+	background-size: cover;
+ 	text-align: center;
+ 	color: #fff;
+}
+
+.slide4 h2
+{
+	margin: 0;
+	padding: 28px 0 0 98px;
+	font-family: OpenSansSemiBold;
+	font-size: 39px;
+}
+ .slide4 p
+ {
+ 	text-align: left;
+ 	width: 600px;
+ 	font-family: OpenSansLight;
+ 	display: block;
+ 	margin:auto;
+ 	padding-left: 193px; 
+ 	margin-top: 22px;
+ }
+ /*-------------------------------------slideMap------------------------------*/
+.slideMap
+{
+	height: 635px;
+	width: 100%;
+	background-color: gray;
+	position: relative;
+}
+
+.map
+{
+	width: 100%;
+	height: 635px;
+}
+
+.message
+{
+	width: 430px;
+	height: 430px;
+	border-radius: 500px;
+	background-color: #fff;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin: auto;
+	top: 0; 
+	left: 0; 
+	bottom: 0; 
+	right: 0;
+}
+
+.slideMap input
+{
+	background-color: #fff;
+	display: block;
+	margin: auto;
+	width: 280px;
+	color: #000;
+	font-family: OpenSansLight;
+	border: 2px solid #e8e8e8;
+	padding-left: 15px;
+	height: 30px;
+	margin-top: 13px;
+}
+.slideMap textarea
+{
+	background-color: #fff;
+	display: block;
+	margin: 15px auto;
+	width: 280px;
+	color: #000;
+	font-family: OpenSansLight;
+	border: 2px solid #e8e8e8;
+	padding-left: 15px;
+	height: 80px;
+}
+.slideMap input:first-child
+{
+	margin-top: 25%;
+}
+.slideMap button
+{
+	background-image: url(../img/Shape.png);
+	background-position: center center;
+	background-repeat: no-repeat;     
+	background-size: cover;
+	height: 67px;
+	width: 67px;
+	background-color: rgba(0,0,0,0);
+	border: none;
+	display: block;
+	margin:auto;
+	margin-top: 31px;
+}
+/*---------------------------------------footer--------------------------------*/
+footer
+{
+	 height: 32px;
+	 background-color: #43a06d;
+	 text-align: center;
+	 font-family: OpenSansLight;
+	 color: #fff;
+	 padding-top: 8px;
+	 width: 100%;
+}
+
+ 
+

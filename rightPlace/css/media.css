@@ -1,0 +1,221 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1500px)
+{
+}
+@media only screen and (max-width : 1450px)
+{
+}
+@media only screen and (max-width : 1400px)
+{
+}
+
+@media only screen and (max-width : 1312px)
+{
+}
+
+
+@media only screen and (max-width : 1175px)
+{
+}
+
+@media only screen and (max-width : 1130px)
+{
+}
+
+@media only screen and (max-width : 1024px)
+{
+}
+@media only screen and (max-width: 991px)
+{
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 928px)
+{
+    body div.slide2
+    {
+        height: 700px ;
+    }
+
+    div.slide4
+    {
+        background-position: -209px center;
+    }
+
+    div.slide4 h2
+    {
+        padding-left: 250px;
+    }
+
+    div.slide4 p
+    {
+        width: 700px !important;
+        padding-left: 293px !important;
+    }
+}
+
+@media only screen and (max-width : 800px)
+{
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 770px)
+{
+}
+
+@media only screen and (max-width : 767px)
+{
+    body div.slide3 p
+    {
+        width: 550px;
+    }
+
+    div.slide4 h2
+    {
+        font-size: 29px;
+
+        padding-left: 250px;
+    }
+
+    div.slide4 p
+    {
+        font-size: 11px;
+
+        width: 515px  !important;
+        padding-left: 270px !important;
+    }
+
+    div.slide4
+    {
+        background-position: -108px 15px;
+        background-size: 970px;
+    }
+}
+@media only screen and (max-width : 550px)
+{
+    div.advertising
+    {
+        display: none;
+    }
+
+    body div.slide3 p
+    {
+        width: 400px;
+    }
+
+    div.slide4
+    {
+        background-position: 0 ;
+        background-size: 0 ;
+    }
+
+    div.slide4 h2
+    {
+        font-size: 43px;
+
+        margin-bottom: 40px;
+        padding-left: 0;
+    }
+
+    div.slide4 p
+    {
+        font-size: 15px;
+
+        display: inline;
+
+        padding: 15px 5% 0 5% !important;
+    }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 481px)
+{
+    div.docs
+    {
+        width: auto;
+    }
+    div.message
+    {
+        width: 280px;
+        height: 280px;
+    }
+    div.docs span
+    {
+        font-size: 12px;
+
+        padding-right: 0;
+    }
+
+    div.message input,
+    div.message textarea
+    {
+        width: 200px;
+    }
+
+    div.slideMap textarea
+    {
+        height: 37px;
+    }
+
+    div.docs h3
+    {
+        font-size: 24px;
+
+        padding-top: 0;
+    }
+
+    div.slideMap button
+    {
+        background-position: center 0;
+        background-size: 50px;
+    }
+}
+
+@media only screen and (max-width : 411px)
+{
+    body div.slide3 p
+    {
+        width: 250px;
+    }
+
+    div.slide4 h2 {padding-top: 0;margin-bottom: 20px;}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 321px)
+{
+}
+
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+{
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+{
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+{
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 928px)
+{
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+{
+}
+
+
+@media only screen and (min-width : 1919px)
+{
+}
